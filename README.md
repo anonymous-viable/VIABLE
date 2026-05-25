@@ -4,14 +4,6 @@
 
 VIABLE is the first benchmark for evaluating VLM judge reliability in Visually Impaired Assistance (VIA), spanning three assistive scenarios, 312K+ judgment samples, and an Effectiveness–Impartiality–Stability (E-I-S) evaluation framework over a 12-mode failure taxonomy.
 
-## 🏗️ Repositories
-
-| Component | Description | Link |
-|-----------|-------------|------|
-| **VIABLE** (this repo) | Benchmark data | You are here |
-| **viable** | Evaluation code (E-I-S framework) | [viable](https://github.com/anonymous-viable/viable) |
-| **via-judge-agent** | VIA-Judge-Agent | [via-judge-agent](https://github.com/anonymous-viable/via-judge-agent) |
-
 ## 📦 Data
 
 ### `effectiveness_controlled.tar.gz`
