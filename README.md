@@ -4,6 +4,7 @@
 
 VIABLE is the first benchmark for evaluating VLM judge reliability in Visually Impaired Assistance (VIA), spanning three assistive scenarios, 312K+ judgment samples, and an Effectiveness–Impartiality–Stability (E-I-S) evaluation framework over a 12-mode failure taxonomy.
 
+
 ## 📦 Data
 
 ### `effectiveness_controlled.tar.gz`
@@ -47,14 +48,14 @@ Each JSONL record:
 
 ### 🏷️ Failure Taxonomy
 
-12 failure types across 4 cognitive dimensions:
+12 failure types across 4 cognitive dimensions (based on Perception → Cognition → Action chain):
 
 | Dimension | Codes | Failure Types |
 |-----------|-------|---------------|
-| **Perception** | P1–P4 | Entity/Attribute Error, Spatial Mapping Error, OCR/Detail Miss, Evidence Omission |
-| **Cognition** | C1–C3 | Temporal/Step Error, Causal/Functional Error, Self-Contradiction |
-| **Action** | A1–A3 | Dangerous/Unsafe Advice, Vague/Non-Actionable, Incomplete Action Guidance |
-| **Interaction** | I1–I2 | Redundant/Over-Verbose, Truncated/Incomplete Response |
+| **Perception Fidelity** | P1–P4 | Entity/Attribute Error, Spatial Mapping Error, OCR/Detail Miss, Evidence Omission |
+| **Cognition Validity** | C1–C3 | Temporal/Step Error, Unjustified Inference, Internal Contradiction |
+| **Action Soundness** | A1–A3 | Safety Violation, Non-actionable Guidance, Proactive Clarification Failure |
+| **Interaction Quality** | I1–I2 | Redundant Output, Truncated Output |
 
 ### 📊 Benchmark Scale
 
